@@ -350,9 +350,9 @@ const Checkout = () => {
                 loadingText={paymentMethod === 'Online' ? 'Redirecting...' : 'Placing Order...'}
                 className="w-full bg-primary hover:bg-indigo-700 text-white rounded-20 py-3.5 px-4 text-xs font-bold shadow-md shadow-primary/20 mt-6 flex items-center justify-center gap-2"
               >  {paymentMethod === 'Online' ? (
-                  <>💳 Pay Securely with Razorpay (₹{getCartTotal()})</>
+                  <>Pay Securely with Razorpay (₹{getCartTotal()})</>
                 ) : (
-                  <>💵 Place Order (Cash at Counter)</>
+                  <>Place Order (Cash at Counter)</>
                 )}
               </LoadingButton>
             </form>

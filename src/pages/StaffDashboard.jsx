@@ -256,7 +256,7 @@ const StaffDashboard = () => {
       {/* Connection State Alert Bar */}
       {isServerOffline && (
         <div className="bg-amber-500 text-white text-[11px] font-bold py-2.5 px-4 text-center animate-pulse flex items-center justify-center gap-1.5 z-50">
-          <span>⚠️ Connection to canteen server lost. Trying to reconnect...</span>
+          <span>Connection to canteen server lost. Trying to reconnect...</span>
         </div>
       )}
 

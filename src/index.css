@@ -40,12 +40,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Glassmorphism Classes */
 .glass-header {
-  background: rgba(255, 255, 255, 0.75);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .glass-card {
